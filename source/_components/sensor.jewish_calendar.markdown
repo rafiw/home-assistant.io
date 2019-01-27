@@ -68,6 +68,18 @@ sensors:
       description: Time of the Plag Hamincha.
     first_stars:
       description: Time at which the first stars are visible (Tset Hakochavim - צאת הכוכבים).
+    upcoming_shabbat_candle_lighting:
+      description: Next Shabbat (Saturday) candles  light time (הדלקת נרות בשבת הקרובה).
+    upcoming_shabbat_havdalah
+      description: Next Shabbat (Saturday) end time (צאת השבת הקרובה).
+    upcoming_candle_lighting:
+      description: Next Time (Saturday\Holiday) candles light time (זמן הדלקת נרות בשבת/חג הקרובים).
+    upcoming_havdalah:
+      description: Next Shabbat\holiday end time (צאת השבת/חג הקרובים).
+    issur_melacha_in_effect:
+      description: Are you allowed to work accorindg to the Jewish calander (האם קיים איסור מלאכה למשל חג/שבת).
+    omer_count:
+      description: The Omer count for today (כמה לעומר היום).
 {% endconfiguration %}
 
 ### {% linkable_title Holyness levels %}
